@@ -7,5 +7,7 @@ Habilitamos un repositorio de nuestra pequeña comunidad en el cual encontrarás
 - Documentos de nuestros cursos virtuales lanzados a través de nuestro canal en youtube.
 - Proyectos en robótica e internet de las cosas.
 
+![](https://github.com/nagibvalejos/Robotics-Space-NV/blob/master/logonvyt.png)
+
 #### Apoyanos suscribiendote a nuestro canal de Youtube [Robotics Space NV](https://www.youtube.com/c/lusitioRoboticsSpaceNV)
 #### También puedes dar like a nuestra página en facebook [Robotics Space NV - Facebook](https://www.facebook.com/roboticsSpaceNV)
