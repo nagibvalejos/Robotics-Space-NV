@@ -1,0 +1,35 @@
+from machine import Pin
+import utime
+rojo = Pin(16,Pin.OUT)
+amarillo = Pin(17,Pin.OUT)
+verde = Pin(18,Pin.OUT)
+azul = Pin(19,Pin.OUT)
+naranja = Pin(20,Pin.OUT)
+pulsador = Pin(15,Pin.IN,Pin.PULL_DOWN)
+pulsador2 = Pin(14,Pin.IN,Pin.PULL_UP)
+
+while True:
+    if pulsador.value() == 1:
+       rojo.on()
+       amarillo.on()
+       verde.on()
+       azul.on()
+       naranja.on()
+       utime.sleep(0.5)
+       rojo.off()
+       amarillo.off()
+       verde.off()
+       azul.off()
+       naranja.off()
+       utime.sleep(0.5)
+    if pulsador2.value() == 0:
+        rojo.toggle()
+        utime.sleep(0.2)
+        amarillo.toggle()
+        utime.sleep(0.2)
+        verde.toggle()
+        utime.sleep(0.2)
+        azul.toggle()
+        utime.sleep(0.2)
+        naranja.toggle()
+        utime.sleep(0.2)
